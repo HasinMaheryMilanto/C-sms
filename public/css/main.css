@@ -1,0 +1,78 @@
+body {
+  margin: 0 auto;
+  width: 100%;
+  min-width: 40%;
+  min-height: 100vh;
+}
+
+/* .section1 {
+  max-width: 70% !important;
+} */
+
+.side_bar_left {
+  max-height: 80vh;
+  min-height: 20vh;
+  overflow-y: auto;
+}
+
+small {
+  font-size: 0.8rem !important;
+}
+
+@media All and (max-width: 960px) {
+  .user_status_header {}
+}
+
+.setting_chat:hover .colapps_setting_chat {
+  display: block !important;
+}
+
+.settign_menu_sidebar_left:hover .colapps_setting_menu_sidebar_left {
+  display: block !important;
+}
+
+
+@media screen and (max-width:960px) {
+  .mobile_toggle_2 {
+    width: 50px;
+    height: 50px;
+
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .bar_2 {
+    width: 25px;
+    height: 3px;
+    margin: 2px auto;
+    background: gray;
+    z-index: 100;
+  }
+
+  .side_bar_left {
+    position: absolute;
+    width: 400px !important;
+    z-index: 200;
+    transition: all 0.5s ease-in;
+    left: -1000px;
+    margin-top: 10px !important;
+    background-color: red !important;
+  }
+
+  .all_content {
+    width: 100% !important;
+  }
+
+  .active {
+    left: 5%;
+    transition: all 0.3s ease;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

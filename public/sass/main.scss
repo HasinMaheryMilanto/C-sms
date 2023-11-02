@@ -1,0 +1,51 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+    min-width: 40%;
+    min-height: 100vh;
+}
+
+.section1 {
+    max-width: 70% !important;
+}
+
+.side_bar_left {
+    max-height: 80vh;
+    min-height: 20vh;
+
+    overflow: {
+        y: auto;
+    }
+}
+
+small {
+    font: {
+        size: 0.8rem !important;
+    }
+}
+
+@media All and (max-width:1500px) {
+    // .header_sidebar_left {
+    //     display: flex;
+    //     flex-direction: column !important;
+    //     align-items: flex-start !important;
+    // }
+
+    .user_status_header {
+        display: flex;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+    }
+}
+
+.setting_chat:hover .colapps_setting_chat {
+    display: block !important;
+}
+
+.settign_menu_sidebar_left:hover .colapps_setting_menu_sidebar_left {
+    display: block !important;
+}
+
+// 
+
+// login=========================================================
